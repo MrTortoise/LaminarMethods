@@ -1,93 +1,226 @@
-n><!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Laminar Methods</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: url('https://source.unsplash.com/1600x900/?business,technology') no-repeat center center/cover;
-            color: white;
-            text-align: center;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-        }
-        .overlay {
-            background: rgba(0, 0, 0, 0.6);
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-        }
-        .content {
-            position: relative;
-            z-index: 2;
-            max-width: 600px;
-            padding: 20px;
-        }
-        h1 {
-            font-size: 2.5em;
-            margin-bottom: 10px;
-        }
-        p {
-            font-size: 1.2em;
-            line-height: 1.5;
-        }
-        .contact {
-            margin-top: 20px;
-            font-size: 1.1em;
-        }
-    </style>
+    <title>Laminar Methods | Smooth Flow Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <div class="overlay"></div>
-    <div class="content">
-        <h1>Laminar Methods</h1>
-           <p>Helping organisations and technical teams work better by addressing organisational and technical debt with empirical, objective methods.</p>
-     
-                <h2>Help for CTO / Head of Engineering</h2>
+    <header>
+        <nav class="container">
+            <div class="logo">
+                <h1>Laminar Methods</h1>
+            </div>
+            <div class="nav-links">
+                <a href="index.html" class="active">Home</a>
+                <a href="cto.html">For CTOs</a>
+                <a href="#" class="disabled">Blog</a>
+                <a href="#contact" class="btn">Contact Us</a>
+            </div>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
 
-    <p>Many jobs are important but not urgent. Many important jobs are also not full-time jobs. Many of these are the jobs that require something to be done, data capture, or waiting for time to pass before reviewing later. Other jobs are hard because they require work being done in ways that seem impossible.</p>
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1>Navigate Your Business with Precision</h1>
+                <p>Streamlined solutions for complex challenges</p>
+                <div class="hero-buttons">
+                    <a href="#services" class="btn btn-primary">Our Services</a>
+                    <a href="cto.html" class="btn btn-secondary">How We Help CTOs</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <p>So how is that work going to get done? We all intend to prioritize mercilessly and get the important stuff done before it becomes a priority. The reality is that we spend time deciding what will not get done so that the things that need doing can be completed.</p>
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <p>Navigating complexity with smooth, laminar flow</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Strategic Planning</h3>
+                    <p>Navigate your business challenges with precision and clarity</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code-branch"></i>
+                    </div>
+                    <h3>Technical Solutions</h3>
+                    <p>Streamlined implementation of complex technical systems</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-users-cog"></i>
+                    </div>
+                    <h3>Team Optimization</h3>
+                    <p>Create smooth workflows that maximize your team's potential</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Risk Management</h3>
+                    <p>Identify and mitigate risks before they disrupt your flow</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <h3>The Result</h3>
-    <p>The result of this is that anything that won't fundamentally stop progress can't get prioritized.</p>
+    <section class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About Laminar Methods</h2>
+                    <p>At Laminar Methods, we believe in the power of smooth, uninterrupted flow. Just as laminar flow in fluid dynamics represents an ideal state of movement without turbulence, we help businesses achieve operational excellence without disruption.</p>
+                    <p>Founded by industry experts with decades of experience, we understand the challenges modern organizations face and provide tailored solutions that create lasting impact.</p>
+                    <a href="#" class="btn btn-outline">Learn More</a>
+                </div>
+                <div class="about-image">
+                    <div class="image-container"></div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <h3>The Cost</h3>
-    <p>We lack information to make great decisions, we rely on intuition, and everything starts to slow down because all those things that we would like to have in place—so that our assumptions support our work—are lacking.</p>
-    
-    <p>We know what we want to have in place, we just don’t have the time or the people to put it in place.</p>
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our Clients Say</h2>
+                <p>Success stories from organizations we've helped</p>
+            </div>
+            <div class="testimonial-slider">
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"Laminar Methods transformed our approach to technical challenges. Their strategic guidance helped us navigate complex waters with confidence."</p>
+                        <div class="testimonial-author">
+                            <h4>Sarah Johnson</h4>
+                            <p>CTO, TechStream Inc.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"Working with Laminar Methods was like finding the perfect current. Our operations now flow smoothly, and our team is more productive than ever."</p>
+                        <div class="testimonial-author">
+                            <h4>Michael Chen</h4>
+                            <p>COO, FlowWorks</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <h2>We Can Help</h2>
-    <p>There are many symptoms and opportunities. We have experience diagnosing and building plans for the following:</p>
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get in Touch</h2>
+                <p>Ready to create smooth flow in your organization?</p>
+            </div>
+            <div class="contact-container">
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>123 Flow Street, Suite 400<br>San Francisco, CA 94107</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+1 (555) 123-4567</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>info@laminarmethods.com</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <ol>
-        <li><strong>Hard to make objective decisions</strong> – Lack of observability because we don’t have the measures to support decision-making nor the infrastructure to produce them.</li>
-        <li><strong>Slow, error-prone release processes</strong> – Lack of automation or test frameworks to make them efficient.</li>
-        <li><strong>Business changes too fast</strong> – When gross lead time exceeds the time for the business to change its mind, it’s hard to get anything done!</li>
-        <li><strong>Hard to make and then keep promises</strong> – Quality and feedback loops cause enormous amounts of time to vanish.</li>
-        <li><strong>No buy-in for technical work</strong> – No time to write up the problems in a way that enables other stakeholders to clearly sign off on the work.</li>
-        <li><strong>Fighting good decisions later</strong> – Structural problems exist but there’s no bandwidth to assign people to the work required to make safe changes.</li>
-        <li><strong>Identifying developer time sinks</strong> – No time to build automation to improve the developer experience and lower cycle times.</li>
-        <li><strong>Attrition rate and pay rises</strong> – Finding time to build career pathways is highly challenging.</li>
-    </ol>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Laminar Methods</h2>
+                    <p>Smooth Flow Solutions</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3>Company</h3>
+                        <a href="#">About Us</a>
+                        <a href="#">Our Team</a>
+                        <a href="#">Careers</a>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Services</h3>
+                        <a href="#">Strategic Planning</a>
+                        <a href="#">Technical Solutions</a>
+                        <a href="#">Team Optimization</a>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Resources</h3>
+                        <a href="cto.html">For CTOs</a>
+                        <a href="#" class="disabled">Blog</a>
+                        <a href="#">Case Studies</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Laminar Methods. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 
-    <p>We have decades of experience with all of these problems at many scales. We know how hard it is to achieve these things because we have faced these problems ourselves—we wish we had someone to help. Many of these problems are not full-time jobs; they require touchpoints over time, iterative work, and review at later stages.</p>
+    <script>
+        // Simple JavaScript for mobile menu toggle
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
 
-    <p>The value of fixing or building a framework that enables teams to own this as part of their ways of working is enormous. The problem is that you don't have time to do it, and you cannot afford to put your team on it.</p>
-
-    <p><strong>Talk to us—we can help diagnose and plan remedies. We can also potentially do the work required.</strong></p>
-
-      
-     
-        <p class="contact">Contact us at: <a href="mailto:info@laminarmethods.co.uk" style="color: #ffcc00; text-decoration: none;">info@laminarmethods.co.uk</a></p>
-    </div>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                if(this.getAttribute('href') !== '#') {
+                    e.preventDefault();
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
 </body>
 </html>
