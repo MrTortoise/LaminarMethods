@@ -494,3 +494,7 @@ footer {
     color: var(--primary-dark);
     margin-bottom: 25px;
 }
+
+.content-block {
+    padding: 30px;
+}
