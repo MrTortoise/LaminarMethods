@@ -56,6 +56,7 @@ img {
     height: auto;
 }
 
+/* Button Styles */
 .btn {
     display: inline-block;
     padding: 12px 24px;
@@ -102,6 +103,7 @@ img {
     font-size: 0.9rem;
 }
 
+/* Section Headers */
 .section-header {
     text-align: center;
     margin-bottom: 60px;
@@ -173,12 +175,12 @@ nav {
     cursor: pointer;
 }
 
-/* Hero Section */
+/* Hero Section - Home Page */
 .hero {
     position: relative;
     height: 80vh;
     min-height: 600px;
-    background-image: url('https://laminarmethods.co.uk/9f67fe57-0ca9-4b00-9e9d-02ea2c6bec38.webp');
+    background-image: url('img/9f67fe57-0ca9-4b00-9e9d-02ea2c6bec38.webp');
     background-size: cover;
     background-position: center;
     color: white;
@@ -217,7 +219,7 @@ nav {
     gap: 15px;
 }
 
-/* Services Section */
+/* Services Section - Home Page */
 .services {
     padding: 100px 0;
     background-color: var(--background-alt);
@@ -255,7 +257,7 @@ nav {
     color: var(--primary-dark);
 }
 
-/* About Section */
+/* About Section - Home Page */
 .about {
     padding: 100px 0;
 }
@@ -280,14 +282,14 @@ nav {
 
 .image-container {
     height: 400px;
-    background-image: url('https://images.unsplash.com/photo-1511497584788-876760111969?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+    background-image: url('img/9f67fe57-0ca9-4b00-9e9d-02ea2c6bec38.webp');
     background-size: cover;
     background-position: center;
     border-radius: 8px;
     box-shadow: var(--box-shadow);
 }
 
-/* Testimonials Section */
+/* Testimonials Section - Home Page */
 .testimonials {
     padding: 100px 0;
     background-color: var(--background-alt);
@@ -329,7 +331,7 @@ nav {
     font-style: normal;
 }
 
-/* Contact Section */
+/* Contact Section - Both Pages */
 .contact {
     padding: 100px 0;
 }
@@ -384,4 +386,111 @@ nav {
 .info-item i {
     font-size: 1.5rem;
     margin-right: 15px;
-    color: var(--secondary
+    color: var(--secondary-color);
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.social-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    color: white;
+    transition: var(--transition);
+}
+
+.social-links a:hover {
+    background-color: var(--secondary-color);
+    transform: translateY(-3px);
+}
+
+/* Footer - Both Pages */
+footer {
+    background-color: #023e8a;
+    color: white;
+    padding: 80px 0 30px;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.footer-logo h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.footer-links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.footer-column h3 {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: var(--secondary-color);
+}
+
+.footer-column a {
+    display: block;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 10px;
+}
+
+.footer-column a:hover {
+    color: white;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Page Header - CTO Page */
+.page-header {
+    background-color: var(--primary-dark);
+    color: white;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.page-header h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.page-header p {
+    font-size: 1.3rem;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Content Section - CTO Page */
+.content-section {
+    padding: 80px 0;
+}
+
+.content-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 50px;
+}
+
+.main-content h2 {
+    font-size: 2rem;
+    color: var(--primary-dark);
+    margin-bottom: 25px;
+}
