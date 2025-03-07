@@ -178,7 +178,7 @@ nav {
 /* Hero Section - Home Page */
 .hero {
     position: relative;
-    height: 80vh;
+    /* height: 80vh; */
     min-height: 600px;
     background-image: url('img/9f67fe57-0ca9-4b00-9e9d-02ea2c6bec38.webp');
     background-size: cover;
